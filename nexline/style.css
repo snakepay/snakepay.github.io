@@ -35,13 +35,13 @@ ul:hover {
 
 li {
     padding: 20px;
-    margin: 0 2%;    
-    
+    margin: 0 2%;        
 }
 
 li > a {
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
  
 /* COVER */
