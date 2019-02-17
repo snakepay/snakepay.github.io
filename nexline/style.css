@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-html { width: 100%; height: 100%; }
+html { width: 100%; }
 
 body {
     margin: auto 0;    
@@ -51,53 +51,50 @@ li > a {
     grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
     grid-template-rows: 1fr;
     justify-content: center;
-    align-content: center;
-    align-items: center;
+    /*align-content: center;*/
+    /*align-items: center;*/
     text-align: center;
     padding: 2%;
+    height: auto;
 }
 
-.cover-img img{
+
+/*.cover-img img{
     max-width: 100%;
-}
+}*/
 
 .cover-h1 {
     margin-top: 30px;
     color: white;
 }
 
+
 /* GRID */
-.container-servicos img {
-    max-width: 100%;
-}
-
-.container-servicos div {
-    padding: 2%;
-}
-
-.container-servicos h1 {
-    margin: 10px;
-}
-
-.container-servicos p {
-    margin: 20px 0;
-    font-size: 1.5rem;
-}
-
 .container-servicos {    
-    display: grid;
-    grid-gap: 5%;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-template-rows: 1fr;
-    padding: 5% 2%; 
-    justify-items: center;
-    align-items: flex-start;
-    text-align: center;
+    display: grid;    
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));     
     background-color: #2A1184;
     color: white;
-    
 }
 
+.box > img {
+    max-width: 70%;    
+}
+
+.box {
+    text-align: center;
+    padding: 5%;    
+}
+
+.box h1 {
+    padding: 5%;
+}
+
+.box p {
+    margin: 5%;
+}
+
+/* FOOTER */
 footer {
     background: #130046;    
     text-align: center;
